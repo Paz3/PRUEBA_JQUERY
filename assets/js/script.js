@@ -22,9 +22,9 @@ $('.box_tweet').on('click','#like', function(e){
 // var target = $(this).parent().find('.social__element').eq(1).children('.social__number')
 
 $('#mi_form').on('submit', function (e){
+	e.preventDefault();
 	var text = $('#exampleFormControlTextarea1').val();
 	var nombre = $('.nombre_avatar').val();
-	e.preventDefault();
 	var content = `<div class="tweet">
 				<div class="avatar"></div>
 				<div class="nombre_avatar">Paz Romero</div>

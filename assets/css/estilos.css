@@ -89,8 +89,10 @@ h2 {
 }
 
 .icons {
-	padding-top: 5px;
-	float: right;
+	padding: 8px;
+    float: right;
+    background-color: #F9F9F9;
+    border-radius: 10%;
 }
 
 .red_heart {
@@ -119,6 +121,7 @@ h2 {
 .contador {
 	display: inline-block;
 	padding: 0px 10px 0px 10px;
+
 }
 
 a:focus, a:hover {
