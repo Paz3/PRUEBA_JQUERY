@@ -1,6 +1,5 @@
 $(function() {
 
-	var _this = $(this);
 	var numero = 0;
 
 $('.box_tweet').on('click','#like', function(e){
