@@ -1,0 +1,137 @@
+body {
+	background-color: #e6ecf0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.col-xs-4 , .col-xs-8 {
+	padding-top: 20px;
+}
+
+.box_top {
+	background-image: url("../images/zorro.jpg");
+	height: 280px;
+	background-position: center; 
+	position: relative;
+	border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    border: 0px solid #000000;
+}
+
+.box_bottom{
+	background-color: #fff;
+	height: 350px;
+	padding-top: 100px;
+}
+
+.box_tweet {
+	background-color: #fff;
+	min-height: 630px;
+	border-radius: 12px 12px 0px 0px;
+    -moz-border-radius: 12px 12px 0px 0px;
+    -webkit-border-radius: 12px 12px 0px 0px;
+    border: 0px solid #000000;
+}
+
+.box_form, .box_titulo{
+	padding: 20px 20px 10px 20px;
+}
+
+.row_img {
+
+	top: 70%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+
+}
+
+.img_paz {
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #ECF0E9;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dd6405;	
+	border-color: #dd6405;
+	float: right;
+
+}
+
+h2 {
+    font-size: 25px;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.tweet {
+    border-bottom: 1px solid #E7E7E7;
+    height: 80px;
+}
+
+.avatar {
+    background-image: url("../images/Paz_2.jpg");
+    background-position: center; 
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    /*position: absolute;*/
+}
+
+.icons {
+	padding-top: 5px;
+	float: right;
+}
+
+.red_heart {
+	color: tomato;
+}
+
+.nombre {
+	width: 100%;
+	font-size: 1.3em;
+    text-align: center;
+    padding-top: 5px;
+    color: #dd6405;
+    font-weight: bolder;
+
+}
+
+.nombre_avatar {
+	width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    color: #dd6405;
+    font-weight: bolder;
+
+}
+
+.contador {
+	display: inline-block;
+	padding: 0px 10px 0px 10px;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+
+a {
+	color: #ddd;
+	text-decoration: none;
+} 
+
+
+
+
+
